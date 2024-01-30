@@ -25,8 +25,8 @@ def login():
                     session_state = st.session_state
                     session_state.logged_in = True
                     st.experimental_rerun()
-                else : st.error('Invalid username or password')
-            else : st.error('Invalid username or password')
+                else : st.error('Invalid password')
+            else : st.error('Invalid username')
 
 
 def run_app():
